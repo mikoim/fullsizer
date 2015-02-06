@@ -1,0 +1,28 @@
+{
+  "name": "fullsizer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "写真共有サイトから原寸大サイズのURLを取得するGoogle Chromeの拡張機能",
+  "homepage_url": "https://github.com/mikoim/fullsizer",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://photohito.com/photo/*",
+        "https://twitter.com/*/status/*",
+        "http://ganref.jp/m/*/portfolios/photo_detail/*",
+        "http://photozou.jp/photo/show/*",
+        "http://acafe.msc.sony.jp/photo/detail/item/*",
+        "http://www.flickr.com/photos/*"
+      ],
+      "js": [
+        "js/inject.js",
+        "js/jquery-2.1.3.min.js"
+      ]
+    }
+  ]
+}
