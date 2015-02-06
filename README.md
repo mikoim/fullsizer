@@ -1,0 +1,2 @@
+# fullsizer
+写真共有サイトから原寸大サイズのURLを取得するGoogle Chromeの拡張機能
