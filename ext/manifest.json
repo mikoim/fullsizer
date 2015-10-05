@@ -5,9 +5,9 @@
   "description": "The fullsizer is extensions for Google Chrome to retrieve a full size photo from photo sharing sites.",
   "homepage_url": "https://github.com/mikoim/fullsizer",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/pb016_window_maximize.png",
+    "48": "icons/pb048_window_maximize.png",
+    "128": "icons/pb128_window_maximize.png"
   },
   "content_scripts": [
     {
