@@ -2,7 +2,7 @@
   "name": "fullsizer",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "写真共有サイトから原寸大サイズのURLを取得するGoogle Chromeの拡張機能",
+  "description": "The fullsizer is extensions for Google Chrome to retrieve a full size photo from photo sharing sites.",
   "homepage_url": "https://github.com/mikoim/fullsizer",
   "icons": {
     "16": "icons/icon16.png",
@@ -20,8 +20,8 @@
         "http://www.flickr.com/photos/*"
       ],
       "js": [
-        "js/inject.js",
-        "js/jquery-2.1.3.min.js"
+        "js/jquery-2.1.4.min.js",
+        "js/inject.js"
       ]
     }
   ]
