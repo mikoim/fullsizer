@@ -1,12 +1,12 @@
 # fullsizer
-写真共有サイトから原寸大サイズのURLを取得するGoogle Chromeの拡張機能
+The fullsizer is extensions for Google Chrome to retrieve a full size photo from photo sharing sites.
 
-## サポートする写真共有サイト
+## Supported photo sharing sites
  * GANREF
  * PHOTOHITO
  * Twitter
  * αcafe
  * フォト蔵
 
-## ライブラリ
- * [jQuery](http://jquery.com/) v2.1.3, (c) 2005, 2014 jQuery Foundation, Inc.
+## Libraries used in this extension
+ * [jQuery](http://jquery.com/) v2.1.4 | (c) 2005, 2015 jQuery Foundation, Inc.
