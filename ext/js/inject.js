@@ -40,9 +40,7 @@ chrome.extension.sendMessage({}, function(response) {
       }
 
       if (url != null) {
-        //window.open(url, '_blank');
-        window.prompt('', url);
-        //window.open(url,'Download');
+        chrome.runtime.sendMessage({url: url}, function(response){});
       };
     }
   }, 3);

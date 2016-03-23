@@ -1,6 +1,6 @@
 {
   "name": "fullsizer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "manifest_version": 2,
   "description": "The fullsizer is extensions for Google Chrome to retrieve a full size photo from photo sharing sites.",
   "homepage_url": "https://github.com/mikoim/fullsizer",
@@ -9,20 +9,24 @@
     "48": "icons/pb048_window_maximize.png",
     "128": "icons/pb128_window_maximize.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "http://photohito.com/photo/*",
-        "https://twitter.com/*/status/*",
-        "http://ganref.jp/m/*/portfolios/photo_detail/*",
-        "http://photozou.jp/photo/show/*",
-        "http://acafe.msc.sony.jp/photo/detail/item/*",
-        "http://www.flickr.com/photos/*"
-      ],
-      "js": [
-        "js/jquery-2.1.4.min.js",
-        "js/inject.js"
-      ]
-    }
-  ]
+  "permissions": [
+    "downloads"
+  ],
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "content_scripts": [{
+    "matches": [
+      "http://photohito.com/photo/*",
+      "https://twitter.com/*/status/*",
+      "http://ganref.jp/m/*/portfolios/photo_detail/*",
+      "http://photozou.jp/photo/show/*",
+      "http://acafe.msc.sony.jp/photo/detail/item/*",
+      "http://www.flickr.com/photos/*"
+    ],
+    "js": [
+      "js/jquery-2.2.2.min.js",
+      "js/inject.js"
+    ]
+  }]
 }

@@ -8,5 +8,6 @@ The fullsizer is extensions for Google Chrome to retrieve a full size photo from
  * αcafe
  * フォト蔵
 
-## Libraries used in this extension
- * [jQuery](http://jquery.com/) v2.1.4 | (c) 2005, 2015 jQuery Foundation, Inc.
+## Special Thanks
+ * [monochromat.ico](http://pixiv.me/oliteno) monochromat.ico rev.20131124 - CC0
+ * [jQuery](http://jquery.com/) jQuery v2.2.2 | (c) jQuery Foundation | jquery.org/license
