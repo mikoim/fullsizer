@@ -1,6 +1,6 @@
 {
   "name": "fullsizer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "description": "The fullsizer is extensions for Google Chrome to retrieve a full size photo from photo sharing sites.",
   "homepage_url": "https://github.com/mikoim/fullsizer",
@@ -25,7 +25,6 @@
       "http://www.flickr.com/photos/*"
     ],
     "js": [
-      "js/jquery-2.2.2.min.js",
       "js/inject.js"
     ]
   }]
